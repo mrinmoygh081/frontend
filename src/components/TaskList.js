@@ -119,10 +119,10 @@ const TaskList = () => {
       {allTasks.length > 0 && (
         <div className="--flex-between --pb">
           <p>
-            <b>Total Tasks</b> {allTasks.length}
+            <b>Total Tasks:</b> {allTasks.length}
           </p>
           <p>
-            <b>Completed Tasks</b> {completedTasks.length}
+            <b>Completed Tasks:</b> {completedTasks.length}
           </p>
         </div>
       )}
